@@ -60,3 +60,10 @@ ul {
 }
 
 .button:hover {opacity: 1}
+
+.pics{
+  opacity: 0;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
