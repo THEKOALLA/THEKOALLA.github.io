@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/images/logo/logo.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styleabout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body onload="myFunction();"></onload=><3
+    
+    <h1 class="title">Hi, this is my website with links </br> I am an artist/idk</br> all my photos are free to use </br> have fun :) </h1>
+    <ul>
+        <li><a href="../idnex.html">home</a></li>
+        <li><button class="button" onclick="myFunction()">pix</button></li>
+    </ul>
+    <div style="background-image: url('/images/15.png');">
+</body>
+</html>
+<script>
+    function myFunction() {
+      var num;
+      var total_pics = 30;
+      var num = Math.ceil( Math.random() * total_pics );
+      document.body.style.backgroundImage = `url(/images/${num}.png)`; 
+      return `url(/images/${num}.png)`;
+      }
+</script>
