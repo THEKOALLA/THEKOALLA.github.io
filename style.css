@@ -26,6 +26,7 @@ ul {
     padding: 0;
     background-color:rgba(85, 66, 82, 0.527);
     text-align: center;
+    align-self: center;
     color:  gray;
   }
   
