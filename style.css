@@ -26,10 +26,13 @@ ul {
     padding: 0;
     background-color:rgba(85, 66, 82, 0.527);
     text-align: center;
-    align-self: center;
     color:  gray;
   }
-  
+  ul img{
+    height:75%;
+    width:75%;
+    align-self: center;
+  }
   li a {
     display: block;
     color: white;
