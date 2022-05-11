@@ -24,8 +24,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    background-color:black;
+    background-color:rgba(85, 66, 82, 0.527);
     text-align: center;
     color:  gray;
   }
