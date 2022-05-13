@@ -13,7 +13,7 @@
     <body onload="myFunction();"></onload=>
         <div class="video-background">
             <div class="video-foreground">
-              <iframe id="vid" src="https://www.youtube.com/embed/sYC-FJrXTAI?rel=0&controls=0&rel=0&playsinline=1&enablejsapi=1&loop=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              <iframe id="vid" src="https://www.youtube.com/embed/sYC-FJrXTAI?rel=0&controls=0&rel=0&playsinline=1&enablejsapi=1&loop=1&playlist=sYC-FJrXTAI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
           </div>
         </div>
@@ -54,6 +54,7 @@
   function onPlayerReady(event) {
     event.target.playVideo();
     event.target.mute();
+    event.target.loop(true);
   }
 
 
