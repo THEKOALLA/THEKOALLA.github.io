@@ -15,7 +15,7 @@ body {
     justify-content: center;
     height: 100vh;
     background-color: black;
-    overflow: hidden;
+    overflow: auto;
     text-align: center;
     margin: 0;
     align-items: center;
@@ -23,17 +23,16 @@ body {
 
 .video-background {
   background: #000;
+  color-adjust: rgba(0, 0, 0, 0.575);
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
 }
-.video-foreground,
 
 .video-background iframe {
   aspect-ratio: 16 / 9;
-  position: static;
-  
-
+  color-adjust: rgba(0, 0, 0, 0.575);
+  left: 50%;
   height: 100%;
   width: 100%;
   min-width:min-content;
@@ -44,14 +43,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color:rgba(0, 0, 0, 0.575);
+    background-color:rgba(0, 0, 0, 0.781);
     text-align: center;
     color:  gray;
    }
   ul img{
-    height:100%;
-    width:100%;
-    align-self: center;
+    height:150%;
+    width:50%;
+    align-content: center;
   }
   li a {
     display: block;
